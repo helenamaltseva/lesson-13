@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonts</title>
+  <link rel="stylesheet" href="css/normolize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="header__block">
+      <p class="header__block-text">ENG</p>
+      <nav class="header__block-navigation">
+        <ul class="header__block-navigation-list">
+          <li class="header__block-navigation-list-item">Documentation</li>
+          <p class="header__block-navigation-list-text">/</p>
+          <li class="header__block-navigation-list-item">Who's using</li>
+        </ul>
+      </nav>
+      <img class="header__block-logo" src="img/company-logo-black.svg" alt="Logo">
+    </div>  
+  </div>
+
+  <div class="main">
+
+    <div class="main__chapter1">
+      <div class="main__chapter1-title">
+        <h2 class="main__chapter1-title-header">introduction</h2>
+        <p class="main__chapter1-title-text1">Chapter1</p>
+      </div>  
+      <p class="main__chapter1-title-text2">Welcome to the very start of your React Native journey! If you're looking for environment setup <br> 
+        instructions, they've moved to <u> their own section </u> . Continue reading for an introduction to the <br/> 
+        documentation, Native Components, React, and more!</p>
+    </div>
+
+    <div class="main__chapter2">
+      <div class="main__chapter2-title">
+        <h2 class="main__chapter2-title-header">core components</h2>
+        <p class="main__chapter2-title-text1">Chapter2</p>
+      </div>
+      <p class="main__chapter2-title-text2">React Native is an open source framework for building Android and iOS applications using React <br/>  
+        and the app platform’s native capabiles. With React Native, you use JavaScript to access your <br/> 
+        platform’s  APIs as well as to describe the appearance and behavior of your UI using React <br/>
+        components: <em> bundles of reusable, nestable code </em>. You can learn more about React in the next section. <br/> 
+        But first, let’s cover how components work in React Native.</p> 
+    </div>
+    
+    <div class="main__chapter3">
+      <div class="main__chapter3-title">
+        <h2 class="main__chapter3-title-header">react fundamentals</h2>
+        <p class="main__chapter3-title-text1">Chapter3</p>
+      </div> 
+      <p class="main__chapter3-title-text2">React Native runs on <u> React </u> , a popular open source library for building user interfaces with <br/> 
+        JavaScript. To make the most of React Native, it helps to understand React itself. This section can get <br/> 
+        you started or can serve as a refresher course.</p> 
+      <p class="main__chapter3-title-text3">We’re going to cover the core concepts behind React:</p>
+      <p class="main__chapter3-title-text4"> <b> + components. </b> The rest of this introduction to React uses cats in its examples: friendly, <br/> 
+        approachable creatures that need names and a cafe to work in.</p>
+      <p class="main__chapter3-title-text5"> <b> + JSX. </b> React and React Native use JSX, a syntax that lets you write elements inside JavaScript like so: <br/>  
+        <span style="background-color: rgb(218, 214, 214);"> &lt;Text&gt;Hello, I am your cat! &lt;/Text&gt;</span> .</p> 
+      <p class="main__chapter3-title-text6">The React docs have <u> a comprehensive guide to JSX </u> you can refer to learn even more. Because JSX is <br/> 
+        JavaScript, you can use variables inside it. Here you are declaring a <span style="background-color: rgb(218, 214, 214);"> name  </span> for the cat, name, and <br/> 
+        embedding it with curly braces inside <span style="background-color: rgb(218, 214, 214);"> &lt;Text&gt; </span> </p> 
+      <p class="main__chapter3-title-text7"> <b> + props. </b> Props is short for “properties”. </p>
+      <p class="main__chapter3-title-text8"> <b> + state.</b>  While you can think of props as arguments you use to configure how components render, <br/> 
+        state is like a component’s personal data storage. State is useful for handling data that changes over <br/>  
+        time or that comes from user interaction. State gives your components memory!</p>
+    </div>  
+      
+    <div class="main__chapter4">
+      <div class="main__chapter4-title">
+        <h2 class="main__chapter4-title-header">handling text input</h2>
+        <p class="main__chapter4-title-text1">Chapter4</p>
+      </div> 
+      <p class="main__chapter4-title-text2">TextInput is a Core Component that allows the user to enter text. It has an <em> onChangeText </em> prop that <br/> 
+        takes a function to be called every time the text changed, and an onSubmitEditing prop that takes a <br/> 
+        function to be called when the text is submitted.</p>
+      <p class="main__chapter4-title-text3">For example, let's say that as the user types, you're translating their words into a different language. <br/> 
+        In this new language, every single word is written the same way: 🍕. So the sentence "Hello there <br/> 
+        Bob" would be translated as "🍕 🍕".</p>
+    </div>
+  </div>
+</body>
+</html>

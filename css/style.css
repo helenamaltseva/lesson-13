@@ -1,0 +1,426 @@
+.header {
+  width: 1440px;
+  height: 80px; 
+}
+
+.header__block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  padding: 0px;
+     
+  width: 1200px;
+  height: 54px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  margin-top: 13px;
+}
+
+.header__block-text {
+  font-family: 'Tourney';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+
+  padding-right: 50px;
+}
+
+.header__block-navigation-list {
+  display: flex;
+  justify-content: space-between;
+    
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+
+  padding-right: 478px;
+}
+
+.header__block-navigation-list-item {
+  font-family: 'Staatliches', sans-serif;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  
+  cursor: pointer;
+}
+
+.header__block-logo {
+  width: 238px;
+  height: 49px;
+  display: flex;
+  text-align: center;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 90px;
+  gap: 70px;
+
+  position: absolute;
+  width: 1200px;
+  height: 2225px;
+  left: 120px;
+  top: 150px;
+}
+
+
+.main__chapter1 {
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 1200px;
+  height: 221px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.main__chapter1-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  gap: 10px;
+
+  width: 344px;
+  height: 48px;
+}
+
+.main__chapter1-title-header {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 234px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main__chapter1-title-text1 {
+  font-family: 'Farro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+    
+  width: 100px;
+  height: 20px;
+  
+  letter-spacing: 0.04em;
+
+  flex: none;
+  order: 1;
+}
+
+.main__chapter1-title-text2 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 133px;
+}
+
+
+.main__chapter2 {
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 1200px;
+  height: 318px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.main__chapter2-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  gap: 10px;
+
+  width: 420px;
+  height: 48px;
+}
+
+.main__chapter2-title-header {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 310px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main__chapter2-title-text1 {
+  font-family: 'Farro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+    
+  width: 100px;
+  height: 20px;
+  
+  letter-spacing: 0.04em;
+
+  flex: none;
+  order: 1;
+}
+
+.main__chapter2-title-text2 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 230px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+.main__chapter3 {
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 1200px;
+  height: 993px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.main__chapter3-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  gap: 10px;
+
+  width: 477px;
+  height: 48px;
+}
+
+.main__chapter3-title-header {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 367px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main__chapter3-title-text1 {
+  font-family: 'Farro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+    
+  width: 100px;
+  height: 20px;
+  
+  letter-spacing: 0.04em;
+
+  flex: none;
+  order: 1;
+}
+
+.main__chapter3-title-text2 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 132px;
+}
+
+.main__chapter3-title-text3 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 39px;
+}
+
+.main__chapter3-title-text4 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 86px; 
+}
+
+.main__chapter3-title-text5 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 96px;
+}
+
+.main__chapter3-title-text6 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 142px; 
+}
+
+.main__chapter3-title-text7 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 36px;
+}
+
+.main__chapter3-title-text8 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 134px;
+}
+
+
+.main__chapter4 {
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 1200px;
+  height: 393px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.main__chapter4-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  gap: 10px;
+
+  width: 465px;
+  height: 48px;
+}
+
+.main__chapter4-title-header {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 355px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main__chapter4-title-text1 {
+  font-family: 'Farro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+    
+  width: 100px;
+  height: 20px;
+  
+  letter-spacing: 0.04em;
+
+  flex: none;
+  order: 1;
+}
+
+.main__chapter4-title-text2 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 133px;
+}
+
+.main__chapter4-title-text3 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 1200px;
+  height: 132px;
+}
